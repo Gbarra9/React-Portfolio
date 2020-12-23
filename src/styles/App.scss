@@ -1,15 +1,44 @@
 /* 
 Colors
-lighter-white: #e6edf2
-lighter-green:#6c99b6
-main-blue: #20a6f1
-light-grey: #44577e
-dark-background: #182032
+
+PAMPAS : #EFF0EA
+HAVELOCK BLUE : #60ABE0
+INDIGO : #3D5AC0
+WAIKAWA GRAY : #556BA1
+CLOUD BURST : #243755 
+
 */
+:root {
+  --pampas-color: #eff0ea;
+  --havelock-blue-color: #60abe0;
+  --indigo-color: #3d5ac0;
+  --waikawa-gray-color: #556ba1;
+  --cloud-burst-color: #243755;
+  --light-purple-color: #7857ad;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  display: table; // questionable
+}
+
+body {
+  width: 100%;
+  display: table-cell; // questionable
+}
+
+li {
+  list-style-type: none;
+}
+
+.home-container {
+  padding: 0 5vw; //important
 }

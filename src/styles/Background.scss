@@ -1,22 +1,39 @@
+.background {
+  background: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(
+      40deg,
+      rgba(42, 42, 47, 0.4962359943977591) 4%,
+      rgba(120, 87, 173, 0.2721463585434174) 87%
+    ),
+    url(../assets/images/Bakemonogatari-background.jpg);
+  z-index: -1;
+}
+
 // .particle-background {
 //   position: absolute;
 // }
-#tsparticles {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-image: url('../assets/images/freeimg_51228672.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  z-index: -10;
-}
+// #tsparticles {
+//   width: 100%;
+//   height: 100%;
+//   position: fixed;
+//   background-image: url('../assets/images/freeimg_51228672.jpg');
+//   background-size: cover;
+//   background-position: 50% 50%;
+//   background-repeat: no-repeat;
+//   z-index: -10;
+// }
 
-.tsparticles-canvas-el {
-  height: inherit;
-}
+// .tsparticles-canvas-el {
+//   height: inherit;
+// }
 
-.wrapper {
-  position: relative;
-  height: 100%;
-}
+// .wrapper {
+//   position: relative;
+//   height: 100%;
+// }

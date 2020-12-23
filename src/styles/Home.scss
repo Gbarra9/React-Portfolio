@@ -1,0 +1,47 @@
+.wrapper {
+  position: absolute;
+  top: 30vh;
+  width: 90vw;
+  .home-text {
+    color: var(--pampas-color);
+    .name {
+      font-size: 3em;
+    }
+
+    .title {
+      padding: 1.8rem 0;
+      font-size: 2em;
+      font-weight: 300;
+    }
+  }
+}
+
+.social-link-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1.5rem 0;
+
+  .social-icon-container {
+  }
+}
+
+svg {
+  width: 1.8em;
+  height: 1.8em;
+  color: var(--pampas-color);
+  fill: var(--pampas-color);
+  cursor: pointer;
+  margin-right: 1.5rem;
+  font-size: 1.3rem;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  background-color: var(--cloud-burst-color);
+  border-radius: 2px;
+}
+
+.button-link {
+  text-decoration: none;
+}
