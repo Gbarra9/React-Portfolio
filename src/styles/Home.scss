@@ -2,6 +2,7 @@
   position: absolute;
   top: 30vh;
   width: 90vw;
+  padding: 0 0 2rem 0;
   .home-text {
     color: var(--pampas-color);
     .name {
@@ -18,30 +19,62 @@
 
 .social-link-container {
   display: flex;
-  justify-content: flex-start;
-  padding: 1.5rem 0;
+  justify-content: space-around;
+  padding: 1rem 0;
+  background-color: var(--light-yellow-color);
+  margin: 0 0 1rem 0;
+  max-width: 350px;
+  height: 70px;
+}
+.link-tag {
+  position: relative;
+  transition: all 0.5s ease-out;
 
-  .social-icon-container {
+  svg {
+    width: 1.8em;
+    height: 1.8em;
+    color: var(--pampas-color);
+    fill: var(--pampas-color);
+    font-size: 1.3rem;
+  }
+  .social-icon-text {
+    display: none;
   }
 }
 
-svg {
-  width: 1.8em;
-  height: 1.8em;
-  color: var(--pampas-color);
-  fill: var(--pampas-color);
-  cursor: pointer;
-  margin-right: 1.5rem;
-  font-size: 1.3rem;
+.link-tag:hover,
+.link-tag:focus {
+  svg {
+    visibility: hidden;
+  }
+  .social-icon-text {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: var(--indigo-color);
+    font-size: 1em;
+    font-weight: bold;
+  }
 }
 
 button {
   height: 50px;
   width: 200px;
-  background-color: var(--cloud-burst-color);
+  background-color: var(--indigo-color);
   border-radius: 2px;
-}
-
-.button-link {
+  border: 0;
+  cursor: pointer;
   text-decoration: none;
+  color: var(--pampas-color);
+  font-size: 1.3rem;
+  font-weight: 300;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    background-color: var(--light-purple-color);
+    transform: translateY(-0.1rem);
+    font-size: 1.4rem;
+    box-shadow: 0 0.2rem 0.4rem #8d77af;
+  }
 }
