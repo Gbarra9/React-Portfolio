@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../logo.svg';
+import FullMenu from './FullMenu';
 import { NavLink, Link } from 'react-router-dom';
-// import { Close, Menu } from '@material-ui/icons';
 
 import '../styles/Navbar.scss';
 
@@ -23,30 +23,42 @@ const Navbar = () => {
         <div className='menu-line'></div>
         <div className='menu-line'></div>
       </div>
-
-      <ul>
-        <li>
+      {menuState && <FullMenu />}
+      <ul className='navbar-ul'>
+        <li className='navbar-li'>
           <NavLink
             to='/'
             exact={true}
-            className='link-tag'
+            className='navbar-link-tag'
             activeClassName='active'
           >
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink to='/about' className='link-tag' activeClassName='active'>
+        <li className='navbar-li'>
+          <NavLink
+            to='/about'
+            className='navbar-link-tag'
+            activeClassName='active'
+          >
             About
           </NavLink>
         </li>
-        <li>
-          <NavLink to='/work' className='link-tag' activeClassName='active'>
+        <li className='navbar-li'>
+          <NavLink
+            to='/work'
+            className='navbar-link-tag'
+            activeClassName='active'
+          >
             Work
           </NavLink>
         </li>
-        <li>
-          <NavLink to='/contact' className='link-tag' activeClassName='active'>
+        <li className='navbar-li'>
+          <NavLink
+            to='/contact'
+            className='navbar-link-tag'
+            activeClassName='active'
+          >
             Contact
           </NavLink>
         </li>
@@ -56,26 +68,3 @@ const Navbar = () => {
 };
 
 export { Navbar };
-
-// <ul>
-// <li>
-//   <Link to='/' className='link-tag'>
-//     Home
-//   </Link>
-// </li>
-// <li>
-//   <Link to='/about' className='link-tag'>
-//     About
-//   </Link>
-// </li>
-// <li>
-//   <Link to='/work' className='link-tag'>
-//     Work
-//   </Link>
-// </li>
-// <li>
-//   <Link to='/contact' className='link-tag'>
-//     Contact
-//   </Link>
-// </li>
-// </ul>

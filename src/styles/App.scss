@@ -6,24 +6,52 @@ HAVELOCK BLUE : #60ABE0
 INDIGO : #3D5AC0
 WAIKAWA GRAY : #556BA1
 CLOUD BURST : #243755 
+#796baee6
+rgba(120, 87, 173, 0.272146)
+/* 
+COLORS LIGHT
 
+primary:#796bae
+surface1:#e6e6e6
+surface2:#f2f2f2
+surface3:#ffffff
+element1:#111111
+element2:#222222
+element3:#333333
+
+COLORS DARK 
+primary:#796bae
+surface1:#262626
+surface2:#333333
+surface3:#404040
+element1:#eeeeee
+element2:#dddddd
+element3:#cccccc
 */
+
 :root {
+  --white-color: #fff;
   --pampas-color: #eff0ea;
   --havelock-blue-color: #60abe0;
   --indigo-color: #3d5ac0;
   --waikawa-gray-color: #556ba1;
   --cloud-burst-color: #243755;
   --light-purple-color: #7857ad;
-
   --light-yellow-color: #abb38193;
+  --linear-gradient: linear-gradient(
+    40deg,
+    rgba(42, 42, 47, 0.4962359943977591) 4%,
+    rgba(0, 0, 0, 0.7315301120448179) 100%
+  );
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  // font-family: 'Poppins', sans-serif;
+  font-family: YakuHanJP, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN',
+    'Noto Sans JP', Meiryo, sans-serif;
 }
 
 html {

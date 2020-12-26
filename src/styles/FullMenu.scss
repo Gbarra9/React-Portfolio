@@ -1,0 +1,39 @@
+.fullscreen-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--waikawa-gray-color);
+  z-index: 0;
+}
+
+.fullscreen-nav-ul {
+  height: 100%;
+  width: 100%;
+  .fullscreen-nav-li {
+    border-bottom: 1px solid var(--white-color);
+  }
+  .fullscreen-nav-li:last-child {
+    border-bottom: none;
+  }
+}
+
+.fullscreen-navlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  width: 100%;
+  text-align: center;
+  color: var(--pampas-color);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.fullscreen-navlink.active {
+  color: var(--indigo-color);
+}
+
+.fullscreen-navlink:hover {
+  background-color: var(--light-purple-color);
+}
