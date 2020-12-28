@@ -5,10 +5,11 @@ import { Work } from './components/Work';
 import { Contact } from './components/Contact';
 import { Home } from './components/Home';
 import './styles/App.scss';
+import ThemeContextProvider from './contexts/ThemeContextProvider';
 
 function App() {
   return (
-    <>
+    <ThemeContextProvider>
       <Navbar />
       <Switch>
         <Route path='/about' component={About}></Route>
@@ -16,7 +17,7 @@ function App() {
         <Route path='/contact' component={Contact}></Route>
         <Route path='/' exact component={Home}></Route>
       </Switch>
-    </>
+    </ThemeContextProvider>
   );
 }
 
