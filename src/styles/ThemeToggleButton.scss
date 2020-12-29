@@ -1,0 +1,25 @@
+button.toggle-button {
+  all: unset;
+  height: 1.8rem;
+  width: 1.8rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  .moon-icon {
+    fill: #f8e3a1;
+  }
+  .sun-icon {
+    fill: #000000;
+  }
+}
+
+// button.toggle-button:focus {
+//   outline: -webkit-focus-ring-color auto 1px;
+//   outline-color: -webkit-focus-ring-color;
+//   outline-style: auto;
+//   outline-width: 1px;
+// }
+
+// button.toggle-button:focus {
+
+// }

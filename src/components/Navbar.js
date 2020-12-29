@@ -4,6 +4,7 @@ import FullMenu from './FullMenu';
 import { NavLink, Link } from 'react-router-dom';
 
 import '../styles/Navbar.scss';
+import ThemeToggleButton from './ThemeToggleButton';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -17,13 +18,20 @@ const Navbar = () => {
       <Link to='/' className='logo-link'>
         <img src={logo} alt='Logo' className='nav-logo' />
       </Link>
+      <ul className='nav-mobile-ul-container'>
+        <li className='nav-mobile-li-container mobile-toggle-icon'>
+          <ThemeToggleButton />
+        </li>
+        <li className='nav-mobile-li-container'>
+          <div className={`menu-icon ${menuState}`} onClick={handleClick}>
+            <div className='menu-line'></div>
+            <div className='menu-line'></div>
+            <div className='menu-line'></div>
+          </div>
+        </li>
+      </ul>
 
-      <div className={`menu-icon ${menuState}`} onClick={handleClick}>
-        <div className='menu-line'></div>
-        <div className='menu-line'></div>
-        <div className='menu-line'></div>
-      </div>
-      {menuState && <FullMenu />}
+      {menuState && <FullMenu handleClick={handleClick} />}
       <ul className='navbar-ul'>
         <li className='navbar-li'>
           <NavLink
@@ -61,6 +69,9 @@ const Navbar = () => {
           >
             Contact
           </NavLink>
+        </li>
+        <li className='navbar-li-toggle'>
+          <ThemeToggleButton />
         </li>
       </ul>
     </nav>
