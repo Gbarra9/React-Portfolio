@@ -1,11 +1,19 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  background-color: var(--cloud-burst-color);
   height: 70px;
-  padding: 0 5vw; //Important for Appearance
+  padding: 0 5vw; //IMPORTANT for Appearance
   font-size: 1.2rem;
   position: sticky;
+}
+// LIGHT & DARK THEME COLORS
+.main-nav.darkTheme {
+  background-color: #000;
+  background-color: var(--dark-surface1);
+}
+.main-nav.lightTheme {
+  background-color: #fff;
+  background-color: var(--light-surface1);
 }
 
 .logo-link,
@@ -58,13 +66,19 @@ MENU ICON ANIMATION
   transition: all 0.5s ease-in-out;
 
   .menu-line {
-    background-color: var(--pampas-color);
     height: 3px;
     width: 28px;
     margin: 0 0 0.3125rem 0;
     &:last-child {
       margin: 0;
     }
+  }
+  // LIGHT & DARK THEME COLORS
+  .menu-line.darkTheme {
+    background-color: var(--dark-element1);
+  }
+  .menu-line.lightTheme {
+    background-color: var(--light-element1);
   }
   &.close {
     transform: rotate(180deg);
@@ -104,13 +118,25 @@ MENU ICON ANIMATION
     .navbar-link-tag {
       position: relative;
       text-decoration: none;
-      color: var(--pampas-color);
       font-weight: 700;
       padding-bottom: 0.5rem;
     }
-    .navbar-link-tag.active {
-      color: var(--indigo-color);
+    // LIGHT & DARK THEME COLORS
+    .navbar-link-tag.darkTheme {
+      color: #fff;
+      color: var(--dark-element1);
     }
+    .navbar-link-tag.lightTheme {
+      color: #000;
+      color: var(--light-element1);
+    }
+
+    .navbar-link-tag.darkTheme.active,
+    .navbar-link-tag.lightTheme.active {
+      color: #796bae;
+      color: var(--primary);
+    }
+
     .navbar-link-tag::after {
       content: '';
       position: absolute;
@@ -118,12 +144,22 @@ MENU ICON ANIMATION
       bottom: 0;
       left: 0;
       height: 0.125rem;
-      background: var(--pampas-color);
       transition: transform 0.5s;
       transform: scale(0, 1);
     }
+    // LIGHT & DARK THEME COLORS
+    .navbar-link-tag.darkTheme::after {
+      color: #eee;
+      background: var(--dark-element2);
+    }
+    .navbar-link-tag.lightTheme::after {
+      color: #111;
+      background: var(--light-element2);
+    }
+
     .navbar-link-tag:hover {
-      color: var(--pampas-color);
+      color: #796bae;
+      color: var(--primary);
     }
     .navbar-link-tag:hover::after {
       transform: scale(1, 1);

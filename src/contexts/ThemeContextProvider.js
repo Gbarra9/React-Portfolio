@@ -26,19 +26,17 @@ const ThemeContextProvider = (props) => {
   //   });
   // };
 
-  const [theme, setTheme] = useState('darkTheme');
+  const dataTheme = localStorage.getItem('currentTheme');
+  const initialTheme = dataTheme ? JSON.parse(dataTheme) : 'darkTheme';
 
-  const alterTheme = theme === 'darkTheme' ? 'lightTheme' : 'darkTheme';
+  const [theme, setTheme] = useState(initialTheme);
+
+  const currentTheme = theme === 'darkTheme' ? 'lightTheme' : 'darkTheme';
   const toggleTheme = () => {
-    setTheme(alterTheme);
+    setTheme(currentTheme);
   };
 
   // Runs after render and any update of initial theme state
-  // Sets key darkTheme to true
-  // useEffect(() => {
-  //   localStorage.setItem('darkTheme', JSON.stringify(theme.isDarkTheme));
-  // }, [theme]);
-
   useEffect(() => localStorage.setItem('currentTheme', JSON.stringify(theme)), [
     theme,
   ]);

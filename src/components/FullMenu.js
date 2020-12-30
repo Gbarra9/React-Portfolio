@@ -33,22 +33,22 @@ const FullMenu = ({ handleClick }) => {
         </li>
         <li className={`fullscreen-nav-li ${theme}`}>
           <NavLink
-            to='/contact'
-            className={`fullscreen-navlink ${theme}`}
-            activeClassName='active'
-            onClick={handleClick}
-          >
-            Contact
-          </NavLink>
-        </li>
-        <li className={`fullscreen-nav-li ${theme}`}>
-          <NavLink
             to='/work'
             className={`fullscreen-navlink ${theme}`}
             activeClassName='active'
             onClick={handleClick}
           >
             Work
+          </NavLink>
+        </li>
+        <li className={`fullscreen-nav-li ${theme}`}>
+          <NavLink
+            to='/contact'
+            className={`fullscreen-navlink ${theme}`}
+            activeClassName='active'
+            onClick={handleClick}
+          >
+            Contact
           </NavLink>
         </li>
       </ul>

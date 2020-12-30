@@ -9,11 +9,11 @@
 
 // LIGHT & DARK THEME COLORS
 .fullscreen-menu.darkTheme {
-  background-color: #000;
+  background-color: #000; //Fallback var
   background-color: var(--dark-surface1);
 }
 .fullscreen-menu.lightTheme {
-  background-color: #fff;
+  background-color: #fff; //Fallback var
   background-color: var(--light-surface1);
 }
 
@@ -22,9 +22,12 @@
   width: 100%;
   // LIGHT & DARK THEME COLORS
   .fullscreen-nav-li.darkTheme {
+    //Fallback var
+    border-bottom: 1px solid #fff; //Fallback var
     border-bottom: 1px solid var(--dark-element1);
   }
   .fullscreen-nav-li.lightTheme {
+    border-bottom: 1px solid #000; //Fallback var
     border-bottom: 1px solid var(--light-element1);
   }
   .fullscreen-nav-li:last-child {
@@ -41,20 +44,20 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
 }
 // LIGHT & DARK THEME COLORS
 .fullscreen-navlink.darkTheme {
-  color: #fff;
+  color: #fff; //Fallback var
   color: var(--dark-element1);
 }
 .fullscreen-navlink.lightTheme {
-  color: #000;
+  color: #000; //Fallback var
   color: var(--light-element1);
 }
 
 .fullscreen-navlink.active {
-  color: #796bae; //fallback for var
+  color: #796bae; //Fallback var
   color: var(--primary);
 }
 

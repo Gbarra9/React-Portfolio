@@ -1,20 +1,22 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import logo from '../logo.svg';
 import FullMenu from './FullMenu';
 import { NavLink, Link } from 'react-router-dom';
 
 import '../styles/Navbar.scss';
 import ThemeToggleButton from './ThemeToggleButton';
+import { ThemeContext } from '../contexts/ThemeContextProvider';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick(!click);
   };
-
   const menuState = click ? 'close' : '';
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <nav className='main-nav'>
+    <nav className={`main-nav ${theme}`}>
       <Link to='/' className='logo-link'>
         <img src={logo} alt='Logo' className='nav-logo' />
       </Link>
@@ -24,9 +26,9 @@ const Navbar = () => {
         </li>
         <li className='nav-mobile-li-container'>
           <div className={`menu-icon ${menuState}`} onClick={handleClick}>
-            <div className='menu-line'></div>
-            <div className='menu-line'></div>
-            <div className='menu-line'></div>
+            <div className={`menu-line ${theme}`}></div>
+            <div className={`menu-line ${theme}`}></div>
+            <div className={`menu-line ${theme}`}></div>
           </div>
         </li>
       </ul>
@@ -37,8 +39,8 @@ const Navbar = () => {
           <NavLink
             to='/'
             exact={true}
-            className='navbar-link-tag'
-            activeClassName='active'
+            className={`navbar-link-tag ${theme}`}
+            activeClassName={`active ${theme}`}
           >
             Home
           </NavLink>
@@ -46,8 +48,8 @@ const Navbar = () => {
         <li className='navbar-li'>
           <NavLink
             to='/about'
-            className='navbar-link-tag'
-            activeClassName='active'
+            className={`navbar-link-tag ${theme}`}
+            activeClassName={`active ${theme}`}
           >
             About
           </NavLink>
@@ -55,8 +57,8 @@ const Navbar = () => {
         <li className='navbar-li'>
           <NavLink
             to='/work'
-            className='navbar-link-tag'
-            activeClassName='active'
+            className={`navbar-link-tag ${theme}`}
+            activeClassName={`active ${theme}`}
           >
             Work
           </NavLink>
@@ -64,8 +66,8 @@ const Navbar = () => {
         <li className='navbar-li'>
           <NavLink
             to='/contact'
-            className='navbar-link-tag'
-            activeClassName='active'
+            className={`navbar-link-tag ${theme}`}
+            activeClassName={`active ${theme}`}
           >
             Contact
           </NavLink>

@@ -6,8 +6,9 @@
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-image: var(--linear-gradient),
-    url(../assets/images/Bakemonogatari-background.jpg);
+  // background-image: var(--linear-gradient),
+  //   url(../assets/images/Bakemonogatari-background.jpg);
+  background-image: url(../assets/images/Bakemonogatari-background.jpg);
   z-index: -1;
 }
 

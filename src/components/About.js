@@ -3,10 +3,7 @@ import { ThemeContext } from '../contexts/ThemeContextProvider';
 import '../styles/About.scss';
 
 export const About = () => {
-  // const { isDarkTheme, themeSet, toggleTheme } = useContext(ThemeContext);
   const { theme, toggleTheme } = useContext(ThemeContext);
-  // const theme = isDarkTheme ? themeSet.dark : themeSet.light;
-  console.log(theme);
 
   return (
     <>
