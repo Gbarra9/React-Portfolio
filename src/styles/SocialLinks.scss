@@ -1,0 +1,58 @@
+.social-link-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+
+  margin: 0 0 1rem 0;
+  max-width: 350px;
+  height: 70px;
+}
+// LIGHT & DARK THEME COLORS
+.social-link-container.darkTheme {
+  background-color: #000; //Fallback
+  background-color: var(--dark-surface1);
+}
+.social-link-container.lightTheme {
+  background-color: #fff; //Fallback
+  background-color: var(--light-surface1);
+}
+.link-tag {
+  position: relative;
+  transition: all 0.5s ease-out;
+
+  svg {
+    width: 1.8em;
+    height: 1.8em;
+    font-size: 1.3rem;
+  }
+  // LIGHT & DARK THEME COLORS
+  svg.darkTheme {
+    fill: #fff; //Fallback
+    fill: var(--dark-element1);
+  }
+  svg.lightTheme {
+    fill: #000; //Fallback
+    fill: var(--light-element1);
+  }
+  .social-icon-text {
+    display: none;
+  }
+}
+
+.link-tag:hover,
+.link-tag:focus {
+  svg {
+    visibility: hidden;
+  }
+  .social-icon-text {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #796bae; // Fallback
+    color: var(--primary);
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
