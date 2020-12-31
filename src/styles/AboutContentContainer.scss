@@ -1,0 +1,42 @@
+/* CONTENT CONTAINER STYLING FOR ABOUT, WORK, CONTACT PAGE */
+.content-container {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1rem 1.25rem;
+}
+
+// LIGHT & DARK THEME COLORS
+.content-container.darkTheme {
+  background-color: #262626;
+  background-color: var(--dark-surface2);
+}
+.content-container.lightTheme {
+  background-color: #e6e6e6;
+  background-color: var(--light-surface2);
+}
+
+.about-header {
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+.about-text {
+  padding: 0 1rem 1rem;
+  font-size: 1.2rem;
+  .about-text-1,
+  .about-text-2 {
+    display: block;
+    padding: 1rem 0;
+  }
+}
+// LIGHT & DARK THEME COLORS
+.about-header.darkTheme,
+.about-text.darkTheme {
+  color: #eee;
+  color: var(--dark-element2);
+}
+.about-header.lightTheme,
+.about-text.lightTheme {
+  color: #111;
+  color: var(--light-element2);
+}

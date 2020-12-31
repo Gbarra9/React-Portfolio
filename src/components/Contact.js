@@ -1,5 +1,12 @@
-import React from "react";
+import React from 'react';
+import { Background } from './Background';
+import ContactContentContainer from './ContactContentContainer';
 
 export const Contact = () => {
-  return <h2>Contact</h2>;
+  return (
+    <>
+      <Background />
+      <ContactContentContainer />
+    </>
+  );
 };

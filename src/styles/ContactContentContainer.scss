@@ -1,0 +1,41 @@
+.contact-header {
+  font-size: 2.5rem;
+}
+
+.email-label {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.email-address {
+  font-size: 1.4rem;
+  margin: 1rem 0 2rem;
+  text-decoration: none;
+  padding: 1rem;
+  display: inline-block;
+  max-width: 320px;
+}
+
+// LIGHT & DARK THEME COLORS
+.contact-header.darkTheme,
+.email-label.darkTheme,
+.email-address.darkTheme {
+  color: #eee;
+  color: var(--dark-element2);
+}
+.contact-header.lightTheme,
+.email-label.lightTheme,
+.email-address.lightTheme {
+  color: #111;
+  color: var(--light-element2);
+}
+
+.email-address.darkTheme {
+  background-color: #000;
+  background-color: --var(--dark-surface1);
+}
+.email-address.lightTheme {
+  background-color: #fff;
+  background-color: var(--light-surface1);
+}
