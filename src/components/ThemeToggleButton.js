@@ -41,7 +41,12 @@ const ThemeToggleButton = () => {
     );
   // debugger;
   return (
-    <button className='toggle-button' onClick={toggleTheme} aria-pressed={true}>
+    <button
+      className='toggle-button'
+      onClick={toggleTheme}
+      aria-pressed={true}
+      aria-label='Theme Toggle Button Icon'
+    >
       {toggleIcon}
     </button>
   );
