@@ -12,10 +12,14 @@ const WorkContentContainer = () => {
       <div className='content-flex-container'>
         <a
           href='https://shopping-cart-list.netlify.app/'
+          target='_blank'
+          rel='noreferrer'
           className='project-link'
         >
           <img
             src={Project1}
+            target='_blank'
+            rel='noreferrer'
             alt='Shopping List Cart Project'
             className={`project-image`}
           />
@@ -36,6 +40,8 @@ const WorkContentContainer = () => {
             <a
               className='project-icon-link'
               href='https://github.com/Gbarra9/Shopping-Cart'
+              target='_blank'
+              rel='noreferrer'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -49,6 +55,8 @@ const WorkContentContainer = () => {
             <a
               className='project-icon-link'
               href='https://shopping-cart-list.netlify.app/'
+              target='_blank'
+              rel='noreferrer'
             >
               <svg
                 aria-hidden='true'
@@ -68,9 +76,16 @@ const WorkContentContainer = () => {
         </div>
       </div>
       <div className='content-flex-container'>
-        <a href='https://findmyipaddress.netlify.app/' className='project-link'>
+        <a
+          href='https://findmyipaddress.netlify.app/'
+          target='_blank'
+          rel='noreferrer'
+          className='project-link'
+        >
           <img
             src={Project2}
+            target='_blank'
+            rel='noreferrer'
             alt='Find my ip address project'
             className={`project-image`}
           />
@@ -93,6 +108,8 @@ const WorkContentContainer = () => {
             <a
               className='project-icon-link'
               href='https://github.com/Gbarra9/ip-address-tracker'
+              target='_blank'
+              rel='noreferrer'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -106,6 +123,8 @@ const WorkContentContainer = () => {
             <a
               className='project-icon-link'
               href='https://findmyipaddress.netlify.app/'
+              target='_blank'
+              rel='noreferrer'
             >
               <svg
                 aria-hidden='true'
