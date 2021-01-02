@@ -17,7 +17,7 @@ const WorkContentContainer = () => {
           <img
             src={Project1}
             alt='Shopping List Cart Project'
-            className={`project-image ${theme}`}
+            className={`project-image`}
           />
         </a>
         <div className='project-text-content'>
@@ -72,7 +72,7 @@ const WorkContentContainer = () => {
           <img
             src={Project2}
             alt='Find my ip address project'
-            className={`project-image ${theme}`}
+            className={`project-image`}
           />
         </a>
         <div className='project-text-content'>

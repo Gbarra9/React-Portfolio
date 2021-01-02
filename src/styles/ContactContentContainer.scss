@@ -38,9 +38,35 @@ THIS CSS SELECTOR IS IN THE ABOUTCONTENTCONTAINER
 
 .email-address.darkTheme {
   background-color: #000;
-  background-color: --var(--dark-surface1);
+  background-color: var(--dark-surface1);
 }
 .email-address.lightTheme {
   background-color: #fff;
   background-color: var(--light-surface1);
+}
+
+@media (min-width: 700px) {
+  .contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .contact-social-links-container {
+      width: 100%;
+      .social-link-container {
+        min-width: inherit;
+        margin: 0 auto 1rem;
+      }
+    }
+  }
+  .contact-header,
+  .email-label,
+  .email-address {
+    text-align: center;
+  }
+  .email-address {
+    display: block;
+    margin: 1rem auto 2rem;
+    width: 100%;
+  }
 }
