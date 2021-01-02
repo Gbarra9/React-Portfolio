@@ -1,11 +1,12 @@
 import React from 'react';
 import { Background } from './Background';
+import WorkContentContainer from './WorkContentContainer';
 
 export function Work() {
   return (
     <>
       <Background />
-      <h2>Work</h2>
+      <WorkContentContainer />
     </>
   );
 }

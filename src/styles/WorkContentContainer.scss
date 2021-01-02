@@ -1,0 +1,207 @@
+.project-header {
+  font-size: 2.5rem;
+  margin: 1rem 0 2rem;
+}
+
+// LIGHT & DARK THEME COLORS
+.project-header.darkTheme {
+  color: #eee; // Fallback
+  color: var(--dark-element2);
+}
+
+.project-header.lightTheme {
+  color: #111; // Fallback
+  color: var(--light-element2);
+}
+
+.content-flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  .project-link {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    .project-image {
+      display: block;
+      height: 100%;
+      width: 100%;
+      border: 0.5rem solid #000;
+      border-radius: 5px;
+      transition: 0.8s ease-in-out;
+    }
+    .project-image:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.project-text-content {
+  width: 100%;
+  padding: 1rem;
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  // LIGHT & DARK THEME COLORS
+  .project-title.darkTheme {
+    color: #eee; // Fallback
+    color: var(--dark-element2);
+  }
+
+  .project-title.lightTheme {
+    color: #111; // Fallback
+    color: var(--light-element2);
+  }
+
+  .project-description {
+    margin-bottom: 2rem;
+  }
+  // LIGHT & DARK THEME COLORS
+  .project-description.darkTheme {
+    color: #eee; // Fallback
+    color: var(--dark-element2);
+  }
+
+  .project-description.lightTheme {
+    color: #111; // Fallback
+    color: var(--light-element2);
+  }
+
+  .tech-names {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+
+    .tech-name {
+      padding: 0.3rem 0.8rem;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    .tech-name:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    // LIGHT & DARK THEME COLORS
+    .tech-name.darkTheme {
+      color: #eee; // Fallback
+      color: var(--dark-element2);
+      background-color: #000; // Fallback
+      background-color: var(--dark-surface1);
+      border: 0.15rem solid #eee; // Fallback
+      border: 0.15rem solid var(--dark-element2);
+    }
+    .tech-name.lightTheme {
+      color: #111; // Fallback
+      color: var(--light-element2);
+      background-color: #fff; // Fallback
+      background-color: var(--light-surface1);
+      border: 0.15rem solid #111;
+      border: 0.15rem solid var(--light-element2);
+    }
+  }
+}
+
+.project-icon-links {
+  display: flex;
+  .project-icon-link {
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+  }
+  .project-icon-link:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  .ionicon-project {
+    height: 100%;
+    width: 100%;
+  }
+
+  // LIGHT & DARK THEME COLORS
+  .ionicon-project.darkTheme {
+    fill: #eee; // Fallback
+    fill: var(--dark-element2);
+    transition: 1s ease-out;
+  }
+  .ionicon-project.lightTheme {
+    fill: #111; // Fallback
+    fill: var(--light-element2);
+    transition: 0.8s ease-out;
+  }
+  .ionicon-project.darkTheme:hover,
+  .ionicon-project.lightTheme:hover {
+    fill: #796bae;
+  }
+}
+
+@media (min-width: 800px) {
+  .content-flex-container {
+    flex-direction: row;
+    max-height: 450px;
+    .project-link {
+      height: 100%;
+    }
+  }
+
+  // IMPORTANT FOR ADDING MORE PROJECTS
+  .content-flex-container:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .project-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .project-title {
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+    .project-description {
+      margin-bottom: 1rem;
+    }
+
+    .tech-names {
+      width: 100%;
+      .tech-name {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.8rem;
+        margin-bottom: 0rem;
+      }
+    }
+  }
+
+  .project-icon-links {
+    width: 100%;
+    .project-icon-link {
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .content-flex-container {
+    .project-link {
+      height: 450px;
+    }
+    .project-title {
+      font-size: 1.8rem;
+    }
+    .project-text-content {
+      padding: 1rem 1.5rem;
+      .project-icon-links {
+        .project-icon-link {
+          height: 2.5rem;
+          width: 2.5rem;
+        }
+      }
+    }
+  }
+}
