@@ -7,7 +7,7 @@ const ContactContentContainer = () => {
   const { theme } = useContext(ThemeContext);
   return (
     <div className={`content-container ${theme}`}>
-      <div class='contact-flex-container'>
+      <div className='contact-flex-container'>
         <h2 className={`contact-header ${theme}`}>Contact Me</h2>
         <p className={`email-label ${theme}`}>Email:</p>
         <a
