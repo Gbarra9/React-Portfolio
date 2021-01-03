@@ -1,5 +1,5 @@
 import React, { useState, createContext, useEffect } from 'react';
-// import { themeSet } from '../themes/theme';
+import ReactGA from 'react-ga';
 
 export const ThemeContext = createContext();
 
@@ -34,6 +34,11 @@ const ThemeContextProvider = (props) => {
   const currentTheme = theme === 'darkTheme' ? 'lightTheme' : 'darkTheme';
   const toggleTheme = () => {
     setTheme(currentTheme);
+    ReactGA.event({
+      category: 'User',
+      action: 'Clicked or pressed theme toggle button',
+      label: 'Navbar theme toggle icon',
+    });
   };
 
   // Runs after render and any update of initial theme state

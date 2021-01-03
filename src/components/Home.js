@@ -2,10 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Background } from './Background';
 import SocialLinks from './SocialLinks';
+import ReactGA from 'react-ga';
 
 import '../styles/Home.scss';
 
 export function Home() {
+  const workClick = () => {
+    ReactGA.event({
+      category: 'User',
+      action: 'Clicked or pressed my work button',
+      label: 'My work button on landing page that directs user to work page',
+    });
+  };
   return (
     <>
       <Background />
@@ -17,7 +25,9 @@ export function Home() {
           </div>
           <SocialLinks />
           <Link to='/work'>
-            <button className={`button-link`}>My Work</button>
+            <button className={`button-link`} onClick={workClick}>
+              My Work
+            </button>
           </Link>
         </div>
       </div>
