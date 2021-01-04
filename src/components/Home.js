@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navbar } from './Navbar';
 import { Link } from 'react-router-dom';
 import { Background } from './Background';
 import SocialLinks from './SocialLinks';
@@ -16,6 +17,7 @@ export function Home() {
   };
   return (
     <>
+      <Navbar />
       <Background />
       <div className='home-container'>
         <div className='wrapper'>

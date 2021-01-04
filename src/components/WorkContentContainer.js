@@ -116,7 +116,7 @@ const WorkContentContainer = () => {
           <div className='project-icon-links'>
             <ReactGA.OutboundLink
               to='https://github.com/Gbarra9/ip-address-tracker'
-              label='Find My Ip Address Github'
+              eventLabel='Find My Ip Address Github'
               className='project-icon-link'
               href='https://github.com/Gbarra9/ip-address-tracker'
               target='_blank'
