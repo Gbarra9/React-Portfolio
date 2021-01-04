@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ErrorImage from '../assets/images/Oshino.Shinobu.full.1053592.jpg';
 
 import '../styles/NoMatch.scss';
 
@@ -16,7 +17,7 @@ export const NoMatch = () => {
             <img
               alt='bewildered person'
               className='error-image'
-              src='https://user-images.githubusercontent.com/33293205/103505474-506e5b00-4e28-11eb-87fa-4299eed724b8.jpg'
+              src={ErrorImage}
             />
           </div>
           <div className='error-description-container'>
