@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-// import { Navbar } from './components/Navbar';
 import { Switch, Route, useLocation, Redirect } from 'react-router-dom';
 import { About } from './components/About';
 import { Work } from './components/Work';
