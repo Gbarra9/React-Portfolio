@@ -87,11 +87,19 @@ The following project is my personal portfolio. My motivation for creating the p
 <h3>Light/Dark Theme Toggle</h3>
 <p>There is a trend with websites or applications providing users the ability to change the layout based on a dark or light theme. React Context was used for state mangement and local storage to maintain the theme on refresh. The theme was set to dark theme by default due to my partial preference of dark theme over light theme layouts</p>
 
+<img align="center" alt="theme-toggle-gif" width="50%" src="https://user-images.githubusercontent.com/33293205/103700302-48223700-4f72-11eb-8dc7-4ed873f28e43.gif" />
+
+<img align="center" alt="refresh-theme-toggle-gif" width="50%" src="https://user-images.githubusercontent.com/33293205/103700307-48bacd80-4f72-11eb-88d5-fe7aba08bfc4.gif" />
+
 <h3>React Router DOM for Routes</h3>
 <p>Using a Single Page Application and receiving resources upon a request from the server, React Router is able to change the appearance based on components. 
 </p>
 
+
+
 <p>When switching to a route, the client does not need to refresh and send multiple requests to the server for each route. In short, react router helps the user to navigate to different parts of the application without the need of reloads or server requests.</p>
+
+<img align="center" alt="404-redirect" width="50%" src="https://user-images.githubusercontent.com/33293205/103700303-48bacd80-4f72-11eb-832a-e23e4a203f10.gif" />
 
 <p>React Router was also used to protect my url routes. By defining routes, you are able to control where users are allowed to not allowed to visit. In the instances of non-existent routes, I was able to set up a 404 page.</p>
 
