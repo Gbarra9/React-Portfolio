@@ -6,8 +6,8 @@
 
 1. <a href="#description">Description</a>
 2. <a href="#website">Website</a>
-3.
-4.
+3. <a href="#techtools">Programming Languages / Libraries / Frameworks / Technologies / Tools</a>
+4. <a href="#design">Design / Wireframes</a>
 5.
 
 ---
@@ -23,18 +23,21 @@ The following project is my personal portfolio. My motivation for creating the p
 <a href="https://genebarra.dev">Live Website</a>
 <a href="https://genebarra.dev"><img src="https://user-images.githubusercontent.com/33293205/103592117-28323b00-4ec0-11eb-9d5b-57b6fba1f453.png"></a>
 
-## Programming Languages / Libraries / Frameworks
+<h2 id="techtools">Programming Languages / Libraries / Frameworks / Technologies / Tools</h2>
 
-<p>React</p>
-<p>CSS</p>
-<p>SASS</p>
+### Programming Languages / Libraries / Frameworks
 
-## Technologies / Tools
+<p>
+<img align="left" alt="React" width="26px" src="https://user-images.githubusercontent.com/33293205/103695756-2b363580-4f6b-11eb-8b19-88e03a23ddb9.png" />React</p>
+<p><img align="left" alt="SASS" width="26px" src="https://user-images.githubusercontent.com/33293205/103695748-283b4500-4f6b-11eb-8af0-891882d90e4f.png" />SASS</p>
+<p><img align="left" alt="CSS" width="26px" src="https://user-images.githubusercontent.com/33293205/103695745-270a1800-4f6b-11eb-83a4-38f46c2178a0.png" />CSS</p>
 
-<p>Figma</p>
-<p>VScode</p>
-<p>Github</p>
-<p>Netlify</p>
+
+### Technologies / Tools
+
+<p><img align="left" alt="Figma" width="26px" src="https://user-images.githubusercontent.com/33293205/103695741-25d8eb00-4f6b-11eb-8b7b-22dc430a1328.png" />Figma</p>
+<p><img align="left" alt="VSCode" width="26px" src="https://user-images.githubusercontent.com/33293205/103695735-24a7be00-4f6b-11eb-8d90-5213d85766ab.png" />VSCode</p>
+<p><img align="left" alt="Figma" width="26px" src="https://user-images.githubusercontent.com/33293205/103695725-1fe30a00-4f6b-11eb-9e9f-ae72a4d97a73.png" />Netlify</p>
 
 ---
 
@@ -49,6 +52,22 @@ The following project is my personal portfolio. My motivation for creating the p
 <a href="https://github.com/sass/node-sass">
   <p>node-sass</p>
 </a>
+
+---
+
+<h2 id="design">Design / Wireframes</h2>
+
+### Dark Theme Desktop
+<img align="center" alt="dark-theme-desktop" src="https://user-images.githubusercontent.com/33293205/103698034-bfee6280-4f6e-11eb-85f6-3c63dc9e7d35.png" />
+
+### Light Theme Desktop
+<img align="center" alt="light-theme-desktop" src="https://user-images.githubusercontent.com/33293205/103698030-bf55cc00-4f6e-11eb-99b5-3b1178fb4457.png" />
+
+### Dark Theme Mobile
+<img align="center" alt="dark-theme-mobile" src="https://user-images.githubusercontent.com/33293205/103698031-bfee6280-4f6e-11eb-9ad0-4ca0d36720e6.png" />
+
+### Light Theme Mobile
+<img align="center" alt="light-theme-mobile" src="https://user-images.githubusercontent.com/33293205/103698033-bfee6280-4f6e-11eb-9801-767077084c91.png" />
 
 ---
 
