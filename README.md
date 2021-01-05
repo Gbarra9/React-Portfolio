@@ -37,7 +37,8 @@ The following project is my personal portfolio. My motivation for creating the p
 
 <p><img align="left" alt="Figma" width="26px" src="https://user-images.githubusercontent.com/33293205/103695741-25d8eb00-4f6b-11eb-8b7b-22dc430a1328.png" />Figma</p>
 <p><img align="left" alt="VSCode" width="26px" src="https://user-images.githubusercontent.com/33293205/103695735-24a7be00-4f6b-11eb-8d90-5213d85766ab.png" />VSCode</p>
-<p><img align="left" alt="Figma" width="26px" src="https://user-images.githubusercontent.com/33293205/103695725-1fe30a00-4f6b-11eb-9e9f-ae72a4d97a73.png" />Netlify</p>
+<p><img align="left" alt="Netlify" width="26px" src="https://user-images.githubusercontent.com/33293205/103699337-c8479d00-4f70-11eb-8da7-21aae529c796.png" />Font Awesome</p>
+<p><img align="left" alt="Font-Awesome" width="26px" src="https://user-images.githubusercontent.com/33293205/103699344-c978ca00-4f70-11eb-8e69-cf5dd072aee4.jpg" />Ionicons</p>
 
 ---
 
@@ -57,17 +58,27 @@ The following project is my personal portfolio. My motivation for creating the p
 
 <h2 id="design">Design / Wireframes</h2>
 
+<br/>
+
 ### Dark Theme Desktop
 <img align="center" alt="dark-theme-desktop" src="https://user-images.githubusercontent.com/33293205/103698034-bfee6280-4f6e-11eb-85f6-3c63dc9e7d35.png" />
+
+<br/>
 
 ### Light Theme Desktop
 <img align="center" alt="light-theme-desktop" src="https://user-images.githubusercontent.com/33293205/103698030-bf55cc00-4f6e-11eb-99b5-3b1178fb4457.png" />
 
+<br/>
+
 ### Dark Theme Mobile
 <img align="center" alt="dark-theme-mobile" src="https://user-images.githubusercontent.com/33293205/103698031-bfee6280-4f6e-11eb-9ad0-4ca0d36720e6.png" />
 
+<br/>
+
 ### Light Theme Mobile
 <img align="center" alt="light-theme-mobile" src="https://user-images.githubusercontent.com/33293205/103698033-bfee6280-4f6e-11eb-9801-767077084c91.png" />
+
+<br/>
 
 ---
 
