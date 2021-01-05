@@ -113,14 +113,14 @@ The following project is my personal portfolio. My motivation for creating the p
 <br>
 
 <h3>Figma</h3>
-<p>I was given the opportunity to learn Figma by creating my own layouts and wireframing my website. Figma is tool allowing designers or developers to plan the design of a website or app. Although new to Figma, I am satisfied with the design, how the design was translated to code, and the final product. Sections of the final product based on the pre-designs were altered while I was coding. The main alteration was done for the projects page.</p>
+<p>I was given the opportunity to learn Figma by creating my own layouts and wireframing my website. <a href="https://www.figma.com/" target="_blank">Figma</a> is tool allowing designers or developers to plan the design of a website or app. Although new to Figma, I am satisfied with the design, how the design was translated to code, and the final product. Sections of the final product based on the pre-designs were altered while I was coding. The main alteration was done for the projects page.</p>
 <br>
 
 <h3>React Context</h3>
-<p>In the past, I had experience using redux for centralising state management and managing props among components. I learned React Context to maintain my website's theme. Using React Context was a suitable choice. Context allows sharing state between components and avoids prop drilling.</p>
+<p>In the past, I had experience using redux for centralising state management and managing props among components. I learned <a href="https://reactjs.org/docs/context.html" target="_blank">React Context</a> to maintain my website's theme. Using React Context was a suitable choice. Context allows sharing state between components and avoids prop drilling.</p>
 
 <h3> Google Analytics</h3>
-<p>I relied on react-ga to handle the information being sent to my personal google analytics. This took a bit of time to setup but will be beneficial to see if hiring managers are visiting my site and their interactions.</p>
+<p>I relied on <a href="https://github.com/react-ga/react-ga">react-ga</a> to handle the information being sent to my personal google analytics. This took a bit of time to setup but will be beneficial to see if hiring managers are visiting my site and their interactions.</p>
 
 ---
 
