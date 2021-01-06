@@ -108,7 +108,7 @@ The following project is my personal portfolio. My motivation for creating the p
 <img align="center" alt="404-redirect-gif" width="50%" src="https://user-images.githubusercontent.com/33293205/103700303-48bacd80-4f72-11eb-832a-e23e4a203f10.gif" />
 
 <h3>Google Analytics</h3>
-<p>The main motivator for implementing Google Analytics was to see visitors tracking. Google Analytics requires a bit of tweeking if you are using a single page application. Below is an audience report by Google Analytics. </p>
+<p>The main motivator for implementing Google Analytics was to view visitor tracking. Google Analytics requires a bit of tweeking if you are using a single page application. Below is an audience report by Google Analytics. </p>
 
 <img align="center" alt="404-redirect" width="50%" src="https://user-images.githubusercontent.com/33293205/103703496-9e44a980-4f75-11eb-8d48-dd051fe6bfbd.png" />
 
