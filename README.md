@@ -36,6 +36,7 @@ The following project is my personal portfolio. My motivation for creating the p
 
 ### Technologies / Tools
 
+<p><img align="left" alt="Create react app" width="26px" src="https://user-images.githubusercontent.com/33293205/103710697-aacffe80-4f83-11eb-8c35-84668ede43a6.png" />Create React App</p>
 <p><img align="left" alt="Figma" width="26px" src="https://user-images.githubusercontent.com/33293205/103695741-25d8eb00-4f6b-11eb-8b7b-22dc430a1328.png" />Figma</p>
 <p><img align="left" alt="VSCode" width="26px" src="https://user-images.githubusercontent.com/33293205/103695735-24a7be00-4f6b-11eb-8d90-5213d85766ab.png" />VSCode</p>
 <p><img align="left" alt="Netlify" width="26px" src="https://user-images.githubusercontent.com/33293205/103699337-c8479d00-4f70-11eb-8da7-21aae529c796.png" />Font Awesome</p>

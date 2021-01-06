@@ -45,6 +45,18 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
+
+  .home-icon,
+  .user-icon,
+  .code-icon,
+  .envelope-icon {
+    height: 1.5em;
+    width: 1.5em;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    position: absolute;
+    left: 15vw;
+  }
 }
 // LIGHT & DARK THEME COLORS
 .fullscreen-navlink.darkTheme {
@@ -59,6 +71,17 @@
 .fullscreen-navlink.active {
   color: #796bae; //Fallback var
   color: var(--primary);
+}
+
+@media (min-width: 500px) {
+  .fullscreen-navlink {
+    .home-icon,
+    .user-icon,
+    .code-icon,
+    .envelope-icon {
+      left: 30vw;
+    }
+  }
 }
 
 @media (min-width: 650px) {

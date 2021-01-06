@@ -9,7 +9,6 @@ import './styles/App.scss';
 import ThemeContextProvider from './contexts/ThemeContextProvider';
 import ReactGA from 'react-ga';
 
-//GOOGLE ANALYTICS
 ReactGA.initialize('UA-186408417-1');
 
 function App() {
