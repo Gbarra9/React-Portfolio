@@ -65,9 +65,9 @@ const SocialLinks = () => {
       </ReactGA.OutboundLink>
 
       <ReactGA.OutboundLink
-        to='https://drive.google.com/file/d/1CbKwMLCv_gi9kXlQnY1VI2ObRJH4_Auo/view?usp=sharing'
         eventLabel='My Resume on Google'
-        href='https://drive.google.com/file/d/1CbKwMLCv_gi9kXlQnY1VI2ObRJH4_Auo/view?usp=sharing'
+        to='/pdf/Gene-Resume-2021.pdf'
+        href='/pdf/Gene-Resume-2021.pdf'
         target='_blank'
         rel='noreferrer'
         className='link-tag'

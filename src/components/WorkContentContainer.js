@@ -100,7 +100,7 @@ const WorkContentContainer = () => {
           />
         </ReactGA.OutboundLink>
         <div className='project-text-content'>
-          <h3 className={`project-title ${theme}`}>Shopping Cart List App</h3>
+          <h3 className={`project-title ${theme}`}>Find My IP Address App</h3>
           <p className={`project-description ${theme}`}>
             The ip address tracker app uses Ipify's API to send the ip address
             of the user. Please disable any adblocker browser extensions when
