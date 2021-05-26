@@ -66,8 +66,8 @@ const SocialLinks = () => {
 
       <ReactGA.OutboundLink
         eventLabel='My Resume on Google'
-        to="/pdf/Gene's-Resume-2021.pdf"
-        href="/pdf/Gene's-Resume-2021.pdf"
+        to='/pdf/Gene-Resume-2021.pdf'
+        href='/pdf/Gene-Resume-2021.pdf'
         target='_blank'
         rel='noreferrer'
         className='link-tag'
