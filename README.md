@@ -49,8 +49,8 @@ The following project is my personal portfolio. My motivation for creating the p
 <a href="https://www.npmjs.com/package/react-router-dom">
   <p>react-router-dom</p>
 </a>
-<a href="https://github.com/react-ga/react-ga">
-  <p>react-ga</p>
+<a href="https://www.npmjs.com/package/react-ga4">
+  <p>react-ga4</p>
 </a>
 <a href="https://github.com/sass/node-sass">
   <p>node-sass</p>
@@ -263,7 +263,7 @@ export default ThemeToggleButton;
 <p>ThemeToggleButton component is subscribed to ThemeContext using the useContext(ThemeContext). Pass toggleTheme value to button's onClick event handler.</p>
 
 <h3> Google Analytics</h3>
-<p>I relied on <a href="https://github.com/react-ga/react-ga">react-ga</a> to handle the information being sent to my personal google analytics. This took a bit of time to setup but will be beneficial to see if hiring managers are visiting my site and their interactions.</p>
+<p>I relied on <a href="https://www.npmjs.com/package/react-ga4">react-ga4</a> to handle the information being sent to my personal google analytics. This took a bit of time to setup but will be beneficial to see if hiring managers are visiting my site and their interactions.</p>
 
 ---
 
