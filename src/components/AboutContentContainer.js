@@ -10,12 +10,10 @@ const AboutContentContainer = () => {
       <p className={`about-text ${theme}`}>
         <span className={`about-text-1`}>
           My name is Gene Barra. I am a passionate Frontend Developer eager and
-          willing to learn new technologies. I am currently open to new
-          opportunities.
+          willing to learn new technologies and increase my skillset.
         </span>
         <span className={`about-text-1`}>
-          In my free time and enjoy reading Japanese light novels and running at
-          night.
+          In my free time, I enjoy going on long walks, going on hikes with the dog, and reading technology related articles.
         </span>
       </p>
     </div>
