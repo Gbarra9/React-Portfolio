@@ -61,8 +61,8 @@ const SocialLinks = () => {
       </a>
 
       <a
-        to='/pdf/Gene-Resume-2021.pdf'
-        href='/pdf/Gene-Resume-2021.pdf'
+        to='/pdf/Gene-Resume.pdf'
+        href='/pdf/Gene-Resume.pdf'
         target='_blank'
         rel='noreferrer'
         className='link-tag'
