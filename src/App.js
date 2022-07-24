@@ -13,9 +13,9 @@ ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
 function App() {
   const location = useLocation();
   useEffect(() => {
-    ReactGA.pageview(location.pathname + location.search);
-  }, [location]);
-
+    ReactGA.send({hitType: "pageview", page: location.pathname});
+  });
+  
   return (
     <ThemeContextProvider>
       <Switch>
