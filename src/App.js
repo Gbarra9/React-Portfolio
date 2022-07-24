@@ -7,10 +7,9 @@ import { Home } from './components/Home';
 import { NoMatch } from './components/NoMatch';
 import './styles/App.scss';
 import ThemeContextProvider from './contexts/ThemeContextProvider';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
-ReactGA.initialize('UA-186408417-1');
-
+ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
 function App() {
   const location = useLocation();
   useEffect(() => {
