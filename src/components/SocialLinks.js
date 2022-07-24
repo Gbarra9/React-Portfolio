@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContextProvider';
-// import ReactGA from 'react-ga4';
 import '../styles/SocialLinks.scss';
 
 const SocialLinks = () => {
@@ -9,7 +8,6 @@ const SocialLinks = () => {
     <div className={`social-link-container ${theme}`}>
       <a
         to='https://github.com/Gbarra9'
-        // eventLabel='My Github Profile'
         href='https://github.com/Gbarra9'
         target='_blank'
         rel='noreferrer'
@@ -28,7 +26,6 @@ const SocialLinks = () => {
 
       <a
         to='https://www.linkedin.com/in/gene-barra-37006a107/'
-        // eventLabel='My LinkedIn Profile'
         href='https://www.linkedin.com/in/gene-barra-37006a107/'
         target='_blank'
         rel='noreferrer'
@@ -47,7 +44,6 @@ const SocialLinks = () => {
 
       <a
         to='https://twitter.com/barra_gene'
-        // eventLabel='My Twitter Profile'
         href='https://twitter.com/barra_gene'
         target='_blank'
         rel='noreferrer'
@@ -65,7 +61,6 @@ const SocialLinks = () => {
       </a>
 
       <a
-        // eventLabel='My Resume on Google'
         to='/pdf/Gene-Resume-2021.pdf'
         href='/pdf/Gene-Resume-2021.pdf'
         target='_blank'

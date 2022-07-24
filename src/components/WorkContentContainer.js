@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContextProvider';
 import Project1 from '../assets/images/shopping-cart-list.png';
 import Project2 from '../assets/images/findmyipaddress.png';
-// import ReactGA from 'react-ga4';
 import '../styles/WorkContentContainer.scss';
 
 const WorkContentContainer = () => {
@@ -13,7 +12,6 @@ const WorkContentContainer = () => {
       <div className='content-flex-container'>
         <a
           to='https://shopping-cart-list.netlify.app/'
-          //eventLabel='Shopping List Cart Project Website'
           href='https://shopping-cart-list.netlify.app/'
           target='_blank'
           rel='noreferrer'
@@ -42,7 +40,6 @@ const WorkContentContainer = () => {
           <div className='project-icon-links'>
             <a
               to='https://github.com/Gbarra9/Shopping-Cart'
-              //eventLabel='Shopping List Cart Project Github'
               className='project-icon-link'
               href='https://github.com/Gbarra9/Shopping-Cart'
               target='_blank'
@@ -59,7 +56,6 @@ const WorkContentContainer = () => {
             </a>
             <a
               to='https://shopping-cart-list.netlify.app/'
-              //eventLabel='Shopping List Cart Project Website'
               href='https://shopping-cart-list.netlify.app/'
               target='_blank'
               rel='noreferrer'
@@ -85,7 +81,6 @@ const WorkContentContainer = () => {
       <div className='content-flex-container'>
         <a
           to='https://findmyipaddress.netlify.app/'
-          //eventLabel='Find My Ip Address Project Website'
           href='https://findmyipaddress.netlify.app/'
           target='_blank'
           rel='noreferrer'
@@ -116,7 +111,6 @@ const WorkContentContainer = () => {
           <div className='project-icon-links'>
             <a
               to='https://github.com/Gbarra9/ip-address-tracker'
-              //eventLabel='Find My Ip Address Github'
               className='project-icon-link'
               href='https://github.com/Gbarra9/ip-address-tracker'
               target='_blank'
@@ -133,7 +127,6 @@ const WorkContentContainer = () => {
             </a>
             <a
               to='https://findmyipaddress.netlify.app/'
-              //eventLabel='Find My Ip Address Project Website'
               className='project-icon-link'
               href='https://findmyipaddress.netlify.app/'
               target='_blank'
