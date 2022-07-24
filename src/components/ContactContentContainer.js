@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContextProvider';
 import '../styles/ContactContentContainer.scss';
 import SocialLinks from './SocialLinks';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 const ContactContentContainer = () => {
   const { theme } = useContext(ThemeContext);
