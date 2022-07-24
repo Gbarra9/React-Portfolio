@@ -1,5 +1,5 @@
 import React, { useState, createContext, useEffect } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 export const ThemeContext = createContext();
 

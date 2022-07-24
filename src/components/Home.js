@@ -3,7 +3,7 @@ import { Navbar } from './Navbar';
 import { Link } from 'react-router-dom';
 import { Background } from './Background';
 import SocialLinks from './SocialLinks';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import '../styles/Home.scss';
 
